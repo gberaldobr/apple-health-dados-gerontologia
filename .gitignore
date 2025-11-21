@@ -1,0 +1,35 @@
+# --- Arquivos do sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Ambientes virtuais Python ---
+venv/
+.venv/
+ENV/
+env/
+
+# --- Arquivos temporários ---
+*.tmp
+*.log
+
+# --- Arquivos grandes que NÃO devem entrar no GitHub ---
+*.xlsx
+*.xls
+*.zip
+*.7z
+*.rar
+
+# --- Exportações do Apple Health ---
+export.xml
+Saida/
+saida/
+output/
+out/
+
+# --- Arquivos gerados automaticamente ---
+__pycache__/
+*.pyc
+
+# --- Pastas de backup ---
+backup/
+Backups/
